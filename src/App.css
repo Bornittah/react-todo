@@ -16,11 +16,6 @@ body {
   padding: 0 10px;
 }
 
-.form-container {
-  display: flex;
-  width: 100%;
-  }
-  
 .input-text {
   flex: 8;
   font-size: 14px;
@@ -49,7 +44,7 @@ body {
 
 .todo-item {
   list-style-type: none;
-  padding: 17px 0px;
+  padding: 17px 0;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -65,4 +60,9 @@ body {
   cursor: pointer;
   float: right;
   outline: none;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
 }
