@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.99025bb5.css",
-    "main.js": "/static/js/main.a9b67e5e.js",
-    "index.html": "/index.html",
-    "main.99025bb5.css.map": "/static/css/main.99025bb5.css.map",
-    "main.a9b67e5e.js.map": "/static/js/main.a9b67e5e.js.map"
+    "main.css": "/Bornittah/react-todo/static/css/main.99025bb5.css",
+    "main.js": "/Bornittah/react-todo/static/js/main.a9b67e5e.js",
+    "index.html": "/Bornittah/react-todo/index.html",
+    "main.99025bb5.css.map": "/Bornittah/react-todo/static/css/main.99025bb5.css.map",
+    "main.a9b67e5e.js.map": "/Bornittah/react-todo/static/js/main.a9b67e5e.js.map"
   },
   "entrypoints": [
     "static/css/main.99025bb5.css",
