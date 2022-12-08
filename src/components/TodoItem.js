@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { AiFillDelete } from 'react-icons/ai';
 
 function TodoItem({
   todo, handleChangeProps, deleteTodoProps,
@@ -21,7 +22,7 @@ function TodoItem({
         onChange={() => handleChangeProps(id)}
       />
       <button type="button" onClick={() => deleteTodoProps(id)}>
-        Delete
+        <AiFillDelete className="del-icon icon" />
       </button>
       <span style={completed ? completedStyle : null}>{title}</span>
     </li>

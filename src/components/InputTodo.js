@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { AiFillPlusCircle } from 'react-icons/ai';
 
 function InputTodo({ addTodoProps }) {
   const [inputText, setInputText] = useState({ title: '' });
@@ -27,7 +28,9 @@ function InputTodo({ addTodoProps }) {
         name="title"
         onChange={onChange}
       />
-      <input type="submit" className="input-submit" value="Submit" />
+      <button type="submit" className="input-submit">
+        <AiFillPlusCircle className="icon" />
+      </button>
     </form>
   );
 }
